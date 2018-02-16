@@ -23,13 +23,13 @@ public class Smoketest {
 	public void Openbrowser()
 	
 	{
+		
 		System.setProperty("webdriver.chrome.driver", "C:\\Ali\\Selenium\\chromedriver.exe");
 		wd=new ChromeDriver();
 		wd.manage().window().maximize();
 	}
 	
-	
-	
+
 	@After
 	public void closebrowser()
 	
